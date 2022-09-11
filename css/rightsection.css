@@ -1,0 +1,36 @@
+nav>ul{
+    list-style-type: none;
+    margin: 0px;
+    /* padding: 14px; */
+    background-color: slateblue;
+    overflow: hidden;
+}
+nav li{
+    /* display: inline; */
+    float: left;
+}
+li a{
+display: block;
+padding: 12px;
+color: azure;
+text-align: center;
+text-decoration: none;
+}
+.active{
+    background-color: brown;
+}
+
+.leftsection{
+    float: left;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100vh;
+}
+.rightsection{
+    float: right;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-bottom: 100vh;
+}
